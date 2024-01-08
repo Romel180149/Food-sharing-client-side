@@ -1,4 +1,3 @@
-
 import { createBrowserRouter } from "react-router-dom";
 import Root from "../Root";
 import Home from "../Pages/Home";
@@ -39,7 +38,7 @@ const router = createBrowserRouter([
         ),
         loader: ({ params }) =>
           fetch(
-            `https://assignment-11-server-side-chi.vercel.app/food/${params.id}`
+            `https://food-sharing-server-side.vercel.app/food/${params.id}`
           ),
       },
       {
@@ -59,7 +58,7 @@ const router = createBrowserRouter([
         ),
         loader: ({ params }) =>
           fetch(
-            `https://assignment-11-server-side-chi.vercel.app/food/${params.id}`
+            `https://food-sharing-server-side.vercel.app/food/${params.id}`
           ),
       },
       {
