@@ -55,17 +55,28 @@ const FoodDetails = () => {
               {time}
             </p>
           </div>
-
-          {/* request button and modal */}
-
-          <Link className="absolute bottom-0">
+     <div>
+     <Link className="absolute">
             <button
               onClick={() => document.getElementById("modal").showModal()}
-              className="btn normal-case text-lg font-medium border-2 border-blue1 hover:border-blue1 text-blue1 bg-transparent hover:bg-transparent px-10"
-            >
+              className="btn normal-case text-lg font-medium border-2 border-blue1 hover:border-blue1 text-blue1 bg-transparent hover:bg-transparent px-10">
+            
               Request
             </button>
           </Link>
+     </div>
+          
+
+          {/* request button and modal */}
+
+          {/* <Link className="absolute bottom-0">
+          <button
+    onClick={() => document.getElementById("modal").showModal()}
+    className="btn normal-case text-lg font-medium border-2 border-blue1 hover:border-blue1 text-blue1 bg-transparent hover:bg-transparent px-10 space-x-9"
+  >
+    Request
+  </button>
+          </Link> */}
           <dialog id="modal" className="modal modal-middle">
             <div className="modal-box">
               <RequestModal food={food} />
