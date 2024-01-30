@@ -1,3 +1,6 @@
+
+live link:https://food-sharing-d03a5.web.app/
+
 - Users can register and log in using email/password or through third-party authentication (Google/Github).
 
 - Different roles (User, Admin) with varying levels of access to features.
@@ -38,4 +41,3 @@
 
 Technologies: React, JavaScript, Tailwind CSS, Daisy UI, Firebase, Framer Motion, Node.js, Express.js, MongoDB, JWT
 
-website live link: https://food-sharing-client-side.web.app
