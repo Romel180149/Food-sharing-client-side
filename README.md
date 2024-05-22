@@ -1,5 +1,5 @@
 
-live link:https://food-sharing-d03a5.web.app/
+<a href="https://food-sharing-d03a5.web.app/">Live</a>
 
 - Users can register and log in using email/password or through third-party authentication (Google/Github).
 
